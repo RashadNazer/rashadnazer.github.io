@@ -3,12 +3,11 @@
 <head>
 <style>
 body {
-    color: black;background-color: #e6e6e6;
+    background-color: #e6e6e6;
 }
-
-h1 {
-    color: blue;
-}ul {
+h{color:black;}
+p{color:blue;}
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
