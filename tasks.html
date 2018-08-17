@@ -1,1 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+    div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 500px;
+    
+}
+div.gallery:hover {
+    border: 1px solid #777;
+}
+div.gallery img {
+    width: 500px;
+    height: 250px;
+}
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+}
+.header {
+    padding: 30px;
+    text-align: center;
+    background: white;
+}
+.header h1 {
+    font-size: 50px;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: cyan;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 100%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Add a card effect for articles */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+/* link */
+a {
+    color: blue;
+}
+ /* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+  
+ table {
+    border-collapse: collapse;
+    width: 100%;
+}
 
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: blue;
+    color: white;
+} 
+   /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+  
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Rashad Nazer's World</h1>
+  
+</div>
+
+<div class="topnav">
+  <a href="index.html">HOME</a>
+  <a href="studies.html">STUDIES</a>
+  <a href="work.html">WORK</a>
+  <a href="contact.html" style="float:right">CONTACT</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>TASKS</h2>
+      
+      <p>I completed my schooling in International Indian School, Jeddah(IISJ). It is one of the biggest schools in Kingdom of Saudi Arabia.</p>
+        <p><b><a href="https://photos.google.com/album/AF1QipMMiB-Eo0VTrwHS99IQzj8wna47P_IbvRhwg6_3" target="_blank">To know more about IISJ...</a></b></p>
+ </div> 
+    
+  </div>   
+</div>
+
+  
+
+<div class="footer">
+  <h2>Rashad Nazer. All Rights Reserved</h2>
+</div>
+
+</body>
+</html>
