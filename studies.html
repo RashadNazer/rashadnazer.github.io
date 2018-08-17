@@ -62,7 +62,11 @@ body {
     float: left;
     width: 100%;
 }
-
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 /* Add a card effect for articles */
 .card {
